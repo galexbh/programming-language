@@ -8,6 +8,7 @@ allow_embedding: false
 name: programming_language
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
+metadata: {logo_img: 'asset:8-P0qnw5rAKPXgDY5.png'}
 startup_form: Form1
 native_deps: {head_html: ''}
 renamed: true

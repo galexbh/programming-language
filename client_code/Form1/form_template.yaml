@@ -8,6 +8,14 @@ components:
   name: content_panel
   layout_properties: {slot: default}
   components:
+  - type: FileLoader
+    properties: {}
+    name: file_loader_1
+    layout_properties: {grid_position: 'ZYONDF,ALYTZL'}
+  - type: Label
+    properties: {}
+    name: label_1
+    layout_properties: {slot: title, grid_position: 'MMVHCD,LZZPDV'}
   - type: Button
     properties: {text: button_1}
     name: button_1

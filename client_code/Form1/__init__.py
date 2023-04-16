@@ -13,3 +13,11 @@ class Form1(Form1Template):
     """This method is called when the button is clicked"""
     anvil.server.call("")
 
+  def submit_button_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    anvil.server.call('plot_trees')
+
+    self.
+    
+
+

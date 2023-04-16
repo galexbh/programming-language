@@ -11,4 +11,5 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
 metadata: {logo_img: 'asset:8-P0qnw5rAKPXgDY5.png'}
 startup_form: Form1
 native_deps: {head_html: ''}
+uplink_visible: true
 renamed: true

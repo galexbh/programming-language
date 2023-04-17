@@ -21,8 +21,11 @@ components:
     layout_properties: {grid_position: 'OTJQBA,FUEWMY'}
     event_bindings: {click: get_tree_image}
   - type: Label
-    properties: {}
-    name: label_1
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: '', font_size: null, font: '', spacing_above: small, icon_align: left,
+      spacing_below: small, italic: false, background: '', bold: false, underline: false,
+      icon: ''}
+    name: lexical_analyzer_label
     layout_properties: {slot: title, grid_position: 'PXHFPI,MQEXCW'}
   - type: Image
     properties: {role: null, vertical_align: center, height: '400', tooltip: '', border: '',

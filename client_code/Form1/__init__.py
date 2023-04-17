@@ -14,6 +14,7 @@ class Form1(Form1Template):
     """This method is called when the button is clicked"""
     # Llamar a la función `plot_trees()` para generar la imagen
     tree_image = anvil.server.call('plot_trees')
+    self.lexical_analyzer_label.text = anvil.server.call('lexical_analyzer')
     # Mostrar la imagen en el componente de imagen
     self.image_tree.source = tree_image
 

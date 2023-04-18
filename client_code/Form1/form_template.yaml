@@ -59,6 +59,10 @@ components:
       underline: false, icon: ''}
     name: label_2
     layout_properties: {grid_position: 'OQFYES,CJQBHH RFZLDV,KXNMHU'}
+  - type: Label
+    properties: {}
+    name: result_label
+    layout_properties: {grid_position: 'OQFYES,CJQBHH XKEJQT,IREDER'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
